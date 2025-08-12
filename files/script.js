@@ -7,13 +7,13 @@ const regHistory = JSON.parse(localStorage.getItem("regHistory")) || [];
 
 function renderHistory(){
     if(regHistory.length === 0){
-        storeDataDiv.innerHTML = "<p>No Registration History Yet....</p>";
+        storeDataDiv.innerHTML = "<p>No Registration Yet....</p>";
 
         clearBTN.style.display = "none"
         return
     }
 
-    storeDataDiv.innerHTML = "<strong>Registration History:</strong><br>——————————<br>" +
+    storeDataDiv.innerHTML = "<strong>Attendee List:</strong><br>———————<br>" +
         regHistory.map((entry, index) => 
             `${index+1}. <strong>${entry.name}</strong> --- ${entry.email}`
         ).join('<br>');

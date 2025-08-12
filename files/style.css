@@ -9,13 +9,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #676666, #000000);
+    background: linear-gradient(135deg, #5d5d5d, #2b2a2a);
 }
 
 
 .reg-cont{
-    background-color: rgba(255, 255, 255);
-    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     padding: 20px;
     width: 500px;
