@@ -3,17 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Form With History</title>
 
     <link rel="stylesheet" href="files/style.css">
 </head>
 <body>
 
 
-    
+    <div class="login-cont">
+
+        <h2>Login</h2>
 
 
-    
+        <form action="">
+
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" required id="email">
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" required id="password">
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+
+        <div class="store-data" id="storeData">
+            <p>No Login History Yet....</p>
+        </div>
+    </div>
 
 
     <script src="files/script.js"></script>
